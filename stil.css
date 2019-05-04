@@ -1,0 +1,619 @@
+html,body{
+	
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 14pt;
+	background-color: #F6FAFD
+
+}
+@font-face {
+  font-family: PaloAlto;
+  src: url(Palo_Alto_Regular.ttf);
+}
+.meni>ul>li{
+display: inline-block;
+text-decoration: none;
+
+}
+.meni>ul{
+font-size: 18px;
+word-spacing: 20px;
+text-transform: uppercase;
+font-family: sans-serif;
+text-align: right;
+
+}
+.meni>ul>li>a{
+	text-decoration: none;
+	color: black;
+}
+.meni>ul>li>a:hover{
+	text-decoration: none;
+	color: red;
+}
+.logo{
+	float:left;	
+	position: 	relative;
+	font-family: PaloAlto;
+	font-style: italic;
+	font-size: 28pt;
+	line-height:0;
+}
+nav{
+	position: relative;
+	padding-top:50px;
+	padding-bottom:50px;
+width: 70%;
+	padding-left: 15%;
+}
+.telo{
+
+width: 70%;
+	padding-left: 15%;
+	padding-bottom: 50px;
+}
+.container{
+	/*display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	flex-grow: 0;*/
+	box-shadow: 0 0 15px #c4c4c4;
+	background-color: white;
+	padding: 20px 120px 80px 120px;
+}
+.datum{
+	font-size: 11pt;
+	padding-top: 10px;
+	color: #a5a5a5;
+}
+.naslov{
+	text-align: justify;
+}
+.naslovnaLinija{
+	background-color: transparent;
+    border-top: 1px solid #c9c9c9;
+}
+.slika{
+	float: left;
+	height: 50%;
+	width: auto;
+
+}
+.tekst{
+
+}
+p{
+	line-height: 30px;
+}
+.definicija{
+	border-left: 4px solid #c9c9c9;
+	padding-left: 20px;
+	color: #a5a5a5;
+}
+#tweet{
+	background-image: linear-gradient(#ffffff, #a8a8a8);
+	border:solid grey 1px;
+	border-radius: 3px;
+	font-weight: bold;
+}
+#tweet>i{
+	color: #00acee;
+}
+#face{
+	background-color: #3b5998;
+	border:solid #3b5998 1px;
+	border-radius: 3px;
+	color: white;
+}
+#googleplus{
+	background-color: #ffffff;
+	border:solid grey 1px;
+	border-radius: 1px;
+	font-weight: bold;
+	color: #d34836;
+}
+#pinterest{
+	background-image: linear-gradient(#ffffff, #a8a8a8);
+	border:solid grey 1px;
+	border-radius: 3px;
+	font-weight: bold;
+	font-style: italic;
+	color: #bd081c;
+}
+.dugmad{
+	word-spacing: 10px;
+}
+.hashtag{
+	float: right;
+}
+.hashtag>p{
+	line-height: 0;
+	color: grey;
+}
+
+.container2{
+	box-shadow: 5px 5px 15px #c4c4c4;
+	background-color: white;
+	padding: 20px 120px 60px 120px;
+
+}
+.comments{
+	color: #a5a5a5;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 11pt;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+
+}
+.commentsLeft{
+	float: left;
+	word-spacing: 10px;
+}
+.komentari{
+	color: black;
+}
+.commentsRight{
+	float: right;
+	color: #a5a5a5;
+}
+
+.commentsUnderline{
+	color: #a5a5a5;
+	padding-bottom: 15px;
+	font-size: 11pt;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+
+}
+.poruka{
+	color: red;
+}
+footer{
+	background-color: #5E6AC0;
+}
+.futer{
+	width: 60%;
+	padding-left: 20%;
+
+}
+.palAlt{
+	text-align: center;
+	font-family: PaloAlto;
+	font-style: italic;
+	font-size: 28pt;
+	color: #545d96;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+.meniFuter{
+	padding-bottom: 15px;
+}
+.meniFuter>ul>li{
+display: inline-block;
+text-decoration: none;
+
+}
+.meniFuter>ul{
+font-size: 18px;
+word-spacing: 30px;
+text-transform: uppercase;
+font-family: sans-serif;
+text-align: center;
+
+}
+.meniFuter>ul>li>a{
+	text-decoration: none;
+	color: white;
+}
+.meniFuter>ul>li>a:hover{
+	text-decoration: none;
+	color: red;
+}
+.hrFuter{
+	background-color: transparent;
+    border-top: 1px solid #545d96;
+    border-color: #545d96;
+}
+.tekstFuter{
+	text-align: center;
+	color:#8794e5;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 11pt;
+}
+.tekstFuter>p>a{
+	text-decoration: none;
+	color: white;
+}
+.drustveneMrezeFuter{
+	text-align: center;
+	letter-spacing: 10px;
+	padding-bottom: 50px;
+}
+.drustveneMrezeFuter>a{
+	color: white;
+	text-decoration: none;
+}
+.drustveneMrezeFuter>a:hover{
+	color: red;
+}
+
+.active>a{
+	color: #8794e5;
+	text-decoration: none;
+}
+.textArea{
+	padding-top: 20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+.slikatextArea{
+	width: 10%;
+	font-size: 36pt;
+	color: orange;
+}
+.polje{
+	width: 810px;
+	height: 30px;
+	resize: none;
+	border-color: #a5a5a5;
+	color: #a5a5a5;
+	border-radius: 5px;
+	font-family: "Arial",sans-serif;
+	font-size: 12pt;
+	padding-top: 15px;
+	padding-left: 5px;
+
+}
+.beFirst{
+	text-align: center;
+	color: #a5a5a5;
+	padding-top: 30px;
+	font-size: 12pt;
+	padding-bottom: 30px;
+}
+.DISQUS{
+	color: #a5a5a5;
+}
+.DISQUS>ul>li{
+	text-decoration: none;
+	display: inline;
+	padding: 10px;
+	float: left;
+	font-size: 11pt;
+}
+
+.disqusDesno{
+	float: right;
+	font-weight: bold;
+
+}
+.iDoReflect{
+	float: right ;
+	background-color: blue;
+	color: white;
+}
+@media only screen and (max-device-width: 480px) {
+body{
+	font-size: 26pt;
+}
+.naslov{
+	font-size: 28pt;
+	text-align:left;
+}
+div.telo{
+width: 95%;
+	padding-left: 2.5%;
+	padding-bottom: 20px;
+}
+div.container{
+	box-shadow: 0 0 5px #c4c4c4;
+	background-color: white;
+	padding: 5px 80px 80px 80px;
+}
+.slika{
+	float: none;
+	height: 100%;
+	width: 480px;
+	align-items: center;
+	padding-left: 15%;
+
+}
+p{
+	line-height: 80px;
+}
+
+#tweet{
+	
+	width: 20%;
+	font-size: 30px;
+}
+
+#face{
+	
+	width: 20%;
+	font-size: 30px;
+}
+#googleplus{
+	width: 20%;
+	font-size: 30px;
+}
+#pinterest{
+	
+	width: 20%;
+	font-size: 30px;
+}
+.dugmad{
+	word-spacing: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.hashtag{
+	float: none;
+	padding-top: 20px;
+}
+.hashtag>p{
+	line-height: 0;
+	color: grey;
+}
+.container2{
+	box-shadow: 5px 5px 15px #c4c4c4;
+	background-color: white;
+	padding: 5px 80px 80px 80px;
+}
+.comments{
+	color: #a5a5a5;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 24pt;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+
+}
+.commentsLeft{
+	float: left;
+	word-spacing: 10px;
+}
+.komentari{
+	color: black;
+}
+.commentsRight{
+	display: none;
+}
+
+.commentsUnderline{
+	font-size: 24pt;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+
+}
+.poruka{
+	color: red;
+}
+
+.textArea{
+	padding-top: 20px;
+}
+.slikatextArea{
+	width: 10%;
+	font-size: 24pt;
+}
+.polje{
+	width: 80%;
+	height: 80px;
+	font-size: 24pt;
+
+}
+.beFirst{
+	font-size: 24pt;
+	float: none;
+}
+
+.DISQUS>ul>li{
+
+	font-size: 24pt;
+}
+
+.disqusDesno{
+	float: none;
+	font-weight: bold;
+
+}
+
+.futer{
+	width: 80%;
+	padding-left: 10%;
+	padding-bottom: 80px;
+
+}
+.palAlt{
+	
+	font-size: 34pt;
+}
+
+.meniFuter>ul{
+font-size: 28px;
+
+}
+
+
+.tekstFuter{
+	font-size: 22pt;
+}
+
+.drustveneMrezeFuter{
+	letter-spacing: 10px;
+	padding-bottom: 50px;
+}
+.drustveneMrezeFuter>a{
+	font-size: 50px;
+}
+
+}
+
+@media only screen and (max-device-width: 320px){
+	body{
+		font-size: 30pt;
+	}
+	.naslov{
+		font-size: 30pt;
+		text-align:left;
+	}
+	div.telo{
+	width: 95%;
+		padding-left: 2.5%;
+		padding-bottom: 20px;
+	}
+	div.container{
+		box-shadow: 0 0 5px #c4c4c4;
+		background-color: white;
+		padding: 5px 80px 80px 80px;
+	}
+	.slika{
+		float: none;
+		height: 100%;
+		width: 480px;
+		align-items: center;
+		padding-left: 15%;
+
+	}
+	p{
+		line-height: 90px;
+	}
+
+	#tweet{
+		
+		width: 40%;
+		font-size: 50px;
+		padding: 10px;
+	}
+
+	#face{
+		
+		width: 40%;
+		font-size: 50px;
+		padding: 10px;
+	}
+	#googleplus{
+		width: 40%;
+		font-size: 50px;
+		padding: 10px;
+	}
+	#pinterest{
+		
+		width: 40%;
+		font-size: 50px;
+		padding: 10px;
+	}
+	.dugmad{
+		word-spacing: 10px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.hashtag{
+		float: none;
+		padding-top: 20px;
+	}
+	.hashtag>p{
+		line-height: 0;
+		color: grey;
+	}
+	.container2{
+		box-shadow: 5px 5px 15px #c4c4c4;
+		background-color: white;
+		padding: 5px 80px 80px 80px;
+	}
+	.comments{
+		color: #a5a5a5;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		font-size: 26pt;
+		font-weight: bold;
+		letter-spacing: 1.5px;
+
+	}
+	.commentsLeft{
+		float: left;
+		word-spacing: 10px;
+	}
+	.komentari{
+		color: black;
+	}
+	.commentsRight{
+		display: none;
+	}
+
+	.commentsUnderline{
+		font-size: 26pt;
+		font-weight: bold;
+		letter-spacing: 1.5px;
+
+	}
+	.poruka{
+		color: red;
+	}
+
+	.textArea{
+		padding-top: 20px;
+	}
+	.slikatextArea{
+		width: 10%;
+		font-size: 28pt;
+	}
+	.polje{
+		width: 80%;
+		height: 80px;
+		font-size: 28pt;
+
+	}
+	.beFirst{
+		font-size: 28pt;
+		float: none;
+	}
+
+	.DISQUS>ul>li{
+
+		font-size: 28pt;
+	}
+
+	.disqusDesno{
+		float: none;
+		font-weight: bold;
+
+	}
+
+	.futer{
+		width: 80%;
+		padding-left: 10%;
+		padding-bottom: 80px;
+
+	}
+	.palAlt{
+		
+		font-size: 42pt;
+	}
+
+	.meniFuter>ul>li{
+	font-size: 28pt;
+display: block;
+padding: 30px;
+	}
+
+
+	.tekstFuter{
+		font-size: 24pt;
+	}
+
+	.drustveneMrezeFuter{
+		letter-spacing: 10px;
+		padding-bottom: 50px;
+	}
+	.drustveneMrezeFuter>a{
+		font-size: 54px;
+	}
+
+	}
+}
