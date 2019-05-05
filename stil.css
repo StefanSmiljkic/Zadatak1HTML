@@ -5,6 +5,15 @@ html,body{
 	background-color: #F6FAFD
 
 }
+.sandwich{
+	padding: 30px;
+	display: none;
+}
+.sendBar{
+	float: right;
+	font-size: 15pt;
+	line-height: 0;
+}
 @font-face {
   font-family: PaloAlto;
   src: url(Palo_Alto_Regular.ttf);
@@ -30,6 +39,9 @@ text-align: right;
 	text-decoration: none;
 	color: red;
 }
+.meni{
+	line-height: 0;
+}
 .logo{
 	float:left;	
 	position: 	relative;
@@ -37,6 +49,7 @@ text-align: right;
 	font-style: italic;
 	font-size: 28pt;
 	line-height:0;
+	padding-top: 10px;
 }
 nav{
 	position: relative;
@@ -300,6 +313,18 @@ text-align: center;
 body{
 	font-size: 26pt;
 }
+.sandwich{
+	display: inline;
+}
+.sendBar{
+	font-size: 26pt;
+}
+.logo{
+	font-size: 38pt;
+}
+.bezSendvica{
+	display: none;
+}
 .naslov{
 	font-size: 28pt;
 	text-align:left;
@@ -457,6 +482,13 @@ font-size: 28px;
 @media only screen and (max-device-width: 320px){
 	body{
 		font-size: 30pt;
+	}
+	
+	.sendBar{
+		font-size: 28pt;
+	}
+	.logo{
+		font-size: 40pt;
 	}
 	.naslov{
 		font-size: 30pt;
